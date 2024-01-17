@@ -1,0 +1,18 @@
+{
+    "name": "myBLAST TMR User Agent Switcher",
+    "description": "Change user agent to use salesforce lightning experience on tablet",
+    "version": "1",
+    "manifest_version": 3,
+    "permissions": [
+      "declarativeNetRequest"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ], 
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+        "48": "48.png"
+    }
+  }
