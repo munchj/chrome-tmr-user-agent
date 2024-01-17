@@ -16,7 +16,7 @@ const rules = {
       },
       condition: {
         resourceTypes: ["main_frame"],
-        urlFilter: "*",
+        urlFilter: "force",
       },
     },
   ],
